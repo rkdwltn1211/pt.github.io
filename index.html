@@ -6,10 +6,7 @@
   <title>rkdwltn1211 | Home</title>
   <link rel="stylesheet" href="./style.css" />
   <style>div.box{border:1px solid red; color:blue; font-size: 200%;}.profile-img{transform:scale(0.5);}</style>
-  <style> input {width:60px; border: 2px solid #333;
-  padding: 20px;
-  margin: 40px 0;
-  border-radius: 10px;}</style>
+  <style> input {width:60px;}</style>
   <script>
     // 함수의 선언
     function test(){
@@ -35,11 +32,12 @@
       result = `${a} + ${b} = ${c}`
       console.log(result)
       document.getElementById("n3").value = c
+      document.getElementById("myid").style.border = "3px solid red";
     }
   </script>
 </head>
 <body>
-  <div>
+  <div id = "myid">
   <input type = "text" id = "n1" name= "n1" >+
   <input type = "text" id = "n2" name= "n2">=
   <input type = "text" id = "n3" name= "n3"></div>
