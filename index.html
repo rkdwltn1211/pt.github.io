@@ -9,7 +9,14 @@
   <style> input {width:60px;}</style>
   <style> table,th,td{
   border:1px solid black;}
-  tr{background-color:#f5f5f5;}</style>
+  tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+    }
+
+  tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+    }
+</style>
   <script>
     // 함수의 선언
     function test(){
