@@ -133,14 +133,18 @@
     <form>
       <lablel for = "name"> 이름:</lablel>
       <input type ="text" id = "name" name="name">
+      <fieldset>
+        <legend> 좋아하는 과일은? </legend>
       <input type ="checkbox" name = "fruits" value = "apple">사과
       <input type ="checkbox" name = "fruits" value = "banana">바나나
       <input type ="checkbox" name = "fruits" value = "orange">오렌지
+    </fieldset>
 
-
+      <fieldset>
+        <legend> 성별을 고르시오</legend>
       <input type = "radio" name = "gender" value= "male">남성
       <input type = "radio" name = "gender" value= "female">여성
-      
+      </fieldset>
       <textarea name = "text" rows ="4" cols="30"></textarea>
       <button type = "submit"> 제출 </button>
     </form>
