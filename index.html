@@ -60,10 +60,10 @@
   <script>
     function check_form() {
       email ="hello@ns.com";
-      if !(email.includes('.'))
-      { alert('이메일 주소를 다시 확인해주세요');}
+      if (email.includes('.'))
+      { alert('이메일 주소는 정상입니다');}
       else{
-        alert('이메일 주소는 정상입니다');
+        alert('이메일 주소를 다시 확인해주세요');
       }
     }
     
@@ -200,13 +200,12 @@
       <fieldset>
         <legend> 이메일 입력</legend>
         <input type="email" id= "email",name = "email">
-        
+        <button type="button" onclick = "check_form()";>전송하기 </button>
       </fieldset>
       
       
       <textarea name = "text" rows ="1" cols="10"></textarea>
       <button type = "submit"> 제출 </button>
-      <button type="button" onclick = "check_form()";>전송하기 </button>
       <button type = "reset"> 초기화 </button>
     </form>
 
