@@ -59,7 +59,8 @@
   
   <script>
     function check_form() {
-      email ="hello@nscom";
+     // email ="hello@nscom";
+      email = document.getElementByld('email').value;
       if (email.includes('.'))
       { alert('이메일 주소는 정상입니다');}
       else{
