@@ -5,7 +5,7 @@
       align-items: center;
     }
 
-    .tags {border-radius:3px ;
+    .tags {border:1px solid black ;
            
            font-size: 200%; display: inline-block;
             background-color: #daf4dc; color:green; padding:20px;}
