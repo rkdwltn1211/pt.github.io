@@ -16,5 +16,7 @@
           background-color: #f8bbd0; color:black; padding:20px;}
     .gap{margin-top: 20px; display: flex; gap:20px;}
 
-#round { display: inline-block; width:200px; border:1px solid black; 
+#round1 { display: inline-block; width:200px; border:1px solid black; 
         border-radius: 100px; background-color:#f5a300; margin-top: 20px; }
+#round2 { display: inline-block; width:200px; border:1px solid black; 
+        border-radius: 100px; background-color: red; margin-top: 20px; }
