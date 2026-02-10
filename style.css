@@ -14,7 +14,7 @@
     .tags {
            border:1px solid black; 
            font-size: 200%; display: inline-block;
-            background-color: #daf4dc; color:green;}
+            background-color: #daf4dc; color:green; padding:20px;}
     .first {border:1px solid black; 
             font-size: 200%; display: inline-block; 
             background-color: #f2f2c4; color:black; padding:20px;}
