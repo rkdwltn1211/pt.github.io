@@ -10,11 +10,11 @@
       width:420px;
       font-size:16px;
     }
-
+    body{text-align:center;}
     .tags {
            border:1px solid black; 
            font-size: 200%; display: inline-block;
-            background-color: #daf4dc; color:green; padding:20px;}
+            background-color: #daf4dc; color:green; padding:20px; magin:0 auto;}
     .first {border:1px solid black; 
             font-size: 200%; display: inline-block; 
             background-color: #f2f2c4; color:black; padding:20px;}
