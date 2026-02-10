@@ -10,4 +10,5 @@
       width:420px;
       font-size:16px;
     }
-    div.first{border:1px solid red; color:blue; font-size: 200%;}
+    .tags, .first, .sec{border:1px solid black; font-size: 200%; display: inline-block; }
+    .tags{display:flex; gap:20px;}
