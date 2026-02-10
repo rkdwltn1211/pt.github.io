@@ -14,10 +14,10 @@
     .tags {
            border:1px solid black; 
            font-size: 200%; display: inline-block;
-            background-color: #dcf5dc; color:green;}
+            background-color: #daf4dc; color:green;}
     .first {border:1px solid black; 
             font-size: 200%; display: inline-block; 
-            background-color: #fff9c4; color:yellow;}
+            background-color: #f2f2c4; color:yellow; padding:20px;}
     .sec {border:1px solid black; font-size: 200%; display: inline-block; 
-          background-color: #f8bbd0; color:pink;}
+          background-color: #f4b0d0; color:pink; padding:20px;}
     .gap{margin-top: 20px; display: flex; gap:20px;}
