@@ -15,7 +15,7 @@
     .sec {border:1px solid black; font-size: 200%; display: inline-block; 
           background-color: #f8bbd0; color:black; padding:20px;}
     .gap{margin-top: 20px; display: flex; gap:20px;}
-
+.circle-wrap{ display: flex; gap:20px;}
 #round1 { display: inline-block; width:200px; height:200px; border:1px solid black; 
         border-radius: 100px; background-color:#f5a300; margin-top: 20px; padding:20px; }
 #round2 { display: inline-block; width:200px; height:200px; border:1px solid black; 
