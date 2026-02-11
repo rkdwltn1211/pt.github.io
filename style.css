@@ -22,5 +22,5 @@
         border-radius: 100px; background-color: red; margin-top: 20px; padding:20px; }
 
 a[href ^= "https:"] { background-color: yellow;}
-a[href = "github"] {background-color: #B3E5FC;}
+a[href *= "github"] {background-color: #B3E5FC;}
 a[href $= "abc.com"] {background-color: #F8BBD0;}
