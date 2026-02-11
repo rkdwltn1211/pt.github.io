@@ -45,5 +45,5 @@ input:focus { outline: 4px solid blue;}
 .ab:hover::after{content: "👈🏻";}
 
 .box {
-    background-image: url("cute.jpg")
+    background-image: url("image/cute.jpg")
 }
