@@ -41,5 +41,5 @@ div > p + a { background-color : purple; color : white;}
 input:focus { outline: 4px solid blue;}
 
 
-#ab:hover::before{content: "👉🏻"}
-#ab:hover::after{content: "👈🏻"}
+#ab:hover::before{content: "👉🏻";}
+#ab:hover::after{content: "👈🏻";}
