@@ -34,5 +34,5 @@ nav >#2 {background-color: #ffcc80;}
 nav >#3 {background-color: yellow;}
 nav >#4 {background-color: green;}
 
-div > p + a {background-color: blue;}
-div > a {background-color:purple;}
+div > nav + a {background-color: blue;}
+div > p + a {background-color:purple;}
