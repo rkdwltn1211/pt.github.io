@@ -29,10 +29,10 @@ a[href $= "abc.com"] {background-color: #F8BBD0;}
 
 div> div> a{color:blue;}
 
-nav > #py {background-color: red;}
-nav > #ht {background-color: #ffcc80;}
-nav > #css {background-color: yellow;}
-nav > #js {background-color: green;}
+nav a:nth-child(1)  {background-color: red;}
+nav  a:nth-child(2) {background-color: #ffcc80;}
+nav  a:nth-child(3) {background-color: yellow;}
+nav  a:nth-child(4) {background-color: green;}
 
 div > nav + a {background-color: blue;}
 div > p + a { background-color : purple;}
