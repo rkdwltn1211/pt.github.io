@@ -62,11 +62,12 @@ input:focus { outline: 4px solid blue;}
 */
 
 .container {
-     height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.rr{
-    width:200px; height:200px; border:3px solid black;}
+.rr {
+    width:200px; height:200px; border:3px solid black;
+}
