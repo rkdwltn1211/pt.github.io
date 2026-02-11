@@ -54,7 +54,7 @@ input:focus { outline: 4px solid blue;}
     width:200px;
     height:200px;
     background-color:cyan;
-    justify-content: center;    /* 가로 중앙 */
+    justify-content: center;   
     align-items: center;
     
 } */
