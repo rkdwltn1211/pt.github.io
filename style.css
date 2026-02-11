@@ -62,7 +62,7 @@ input:focus { outline: 4px solid blue;}
 .container {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
