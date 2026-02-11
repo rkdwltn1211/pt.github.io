@@ -49,8 +49,7 @@ input:focus { outline: 4px solid blue;}
     border: 1px solid black;
 }
 
-/*
-.rr{
+/*.rr{
     display: flex;
     width:200px;
     height:200px;
