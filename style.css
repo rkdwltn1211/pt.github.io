@@ -54,3 +54,13 @@ input:focus { outline: 4px solid blue;}
     border: 1px solid black;
 }
 
+
+.rr{
+    display: flex;
+    width:200px;
+    height:200px;
+    background-color:cyan;
+    justify-content: center;    /* 가로 중앙 */
+    align-items: center;
+    
+}
