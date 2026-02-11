@@ -24,3 +24,9 @@
 a[href ^= "https:"] { background-color: yellow;}
 a[href *= "github"] {background-color: #B3E5FC;}
 a[href $= "abc.com"] {background-color: #F8BBD0;}
+
+
+#1 {background-color: red;}
+#2 {background-color: #ffcc80;}
+#3 {background-color: yellow;}
+#4 {background-color: green;}
