@@ -35,4 +35,4 @@ nav > #css {background-color: yellow;}
 nav > #js {background-color: green;}
 
 div > nav + a {background-color: blue;}
-div > p + a {background-color:purple;}
+
