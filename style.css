@@ -64,6 +64,7 @@ input:focus { outline: 4px solid blue;}
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap:20px;
 }
 
 .r1, .r2, .r3, .r4, .r5 {
