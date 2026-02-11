@@ -39,3 +39,7 @@ div > p + a { background-color : purple; color : white;}
 
 #home:hover {color: #B3E5FC;}
 input:focus { outline: 4px solid blue;}
+
+
+#ab:hover::before{content: "👉🏻"}
+#ab:hover::after{content: "👈🏻"}
