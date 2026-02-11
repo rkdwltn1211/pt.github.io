@@ -38,4 +38,4 @@ div > nav + a {background-color: blue;}
 div > p + a { background-color : purple; color : white;}
 
 #home:hover {color: #B3E5FC;}
-input:focus { outline: 2px soild #0000ff;}
+input:focus { outline: 2px solid #0000ff;}
