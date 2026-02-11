@@ -37,4 +37,4 @@ nav  a:nth-child(4) {background-color: green;}
 div > nav + a {background-color: blue;}
 div > p + a { background-color : purple; color : white;}
 
-nav a:hover {color: #B3E5FC;}
+div> div> a:hover {color: #B3E5FC;}
