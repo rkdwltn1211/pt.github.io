@@ -29,6 +29,7 @@ html, body {
   border-right: 2px solid lightseagreen;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #e8f8f5;
 }
 
 .right {
