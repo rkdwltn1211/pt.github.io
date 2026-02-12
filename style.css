@@ -11,15 +11,36 @@ html, body {
   flex-direction: column;  
 }
 
-.top    { grid-area: top; }
-.left   { grid-area: left; }
-.center { grid-area: center; }
-.right  { grid-area: right; }
-.bottom { grid-area: bottom; }
+.top, .bottom { border-bottom: 3px solid black; padding:20px; }
+.bottom {border-bottom:0; border-top: 3px solid black;}
 
-.layout > div {
-  border: 3px solid black;
-  box-sizing: border-box;
+
+/* 가운데(2,3,4) 한 줄 배치 */
+.mid {
+  flex: 1;                       /* 가운데가 남는 높이 다 차지 */
+  display: flex;
+}
+
+/* 2번, 4번: 좌우로 늘어날 수 있게 */
+.left, .right {
+  flex: 1;                       /* 화면 넓어지면 같이 넓어짐 */
+  border-right: 3px solid black;
   padding: 20px;
-  font-size: 24px;
+  box-sizing: border-box;
+}
+
+.right {
+  border-right: 0;
+  border-left: 3px solid black;
+}
+
+/* 3번: 가운데는 고정 폭 느낌 + 세로 스크롤 */
+.center {
+  flex: 2;                       /* 2번,4번보다 더 넓게(원하면 1로) */
+  padding: 20px;
+  box-sizing: border-box;
+
+  overflow-y: auto;              /* ⭐ 위아래 스크롤 */
+  border-left: 3px solid black;
+  border-right: 3px solid black;
 }
