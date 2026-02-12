@@ -9,7 +9,7 @@ html, body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column; 
-  gap:10px;
+  gap:5px;
 }
 
 .top, .bottom { border-bottom: 2px solid lightseagreen; padding:20px; }
