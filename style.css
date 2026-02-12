@@ -56,7 +56,7 @@ html, body {
 
   overflow-y: auto;              /* ⭐ 위아래 스크롤 */
   border-color: 2px solid lightseagreen;
-  
+  min-height: 0;
   
 }
 
