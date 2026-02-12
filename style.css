@@ -11,7 +11,7 @@ html, body {
   flex-direction: column;  
 }
 
-.top, .bottom { border-bottom: 2px solid lightseagreen; padding:20px; }
+.top, .bottom { border-bottom: 2px solid lightseagreen; padding:20px; margin:10px;}
 .bottom {border-bottom:0; border-top: 2px solid lightseagreen;}
 
 
