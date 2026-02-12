@@ -62,9 +62,9 @@ input:focus { outline: 4px solid blue;}
 .container {
   height: 100vh;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: warp;
+  justify-content: space-between; /* 주축 정렬(가로)*/
+  align-items: center; /* 교차 축 정렬(세로)*/
+  flex-wrap: wrap;
   gap: 20px;
 }
 
