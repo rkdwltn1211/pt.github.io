@@ -47,6 +47,6 @@ html, body {
   box-sizing: border-box;
 
   overflow-y: auto;              /* ⭐ 위아래 스크롤 */
-  border-left: 1px solid lightseagreen;
-  border-right: 1px solid lightseagreen;
+  border-left: 2px solid lightseagreen;
+  border-right: 2px solid lightseagreen;
 }
