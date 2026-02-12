@@ -23,7 +23,8 @@ html, body {
 
 /* 2번, 4번: 좌우로 늘어날 수 있게 */
 .left, .right {
-  flex: 1;                       /* 화면 넓어지면 같이 넓어짐 */
+  width: 200px;
+  flex: 0 0 200px;                       /* 화면 넓어지면 같이 넓어짐 */
   border-right: 2px solid lightseagreen;
   padding: 20px;
   box-sizing: border-box;
@@ -36,7 +37,7 @@ html, body {
 
 /* 3번: 가운데는 고정 폭 느낌 + 세로 스크롤 */
 .center {
-  flex: 2;                       /* 2번,4번보다 더 넓게(원하면 1로) */
+  flex: 1;                       /* 2번,4번보다 더 넓게(원하면 1로) */
   padding: 20px;
   box-sizing: border-box;
 
