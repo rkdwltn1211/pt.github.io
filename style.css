@@ -19,6 +19,7 @@ html, body {
 .mid {
   flex: 1;                       /* 가운데가 남는 높이 다 차지 */
   display: flex;
+  flex-direction: row; 
 }
 
 /* 2번, 4번: 좌우로 늘어날 수 있게 */
