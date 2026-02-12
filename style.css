@@ -29,7 +29,7 @@ html, body {
 .left, .right {
   width: 200px;
   flex: 0 0 200px;                       /* 화면 넓어지면 같이 넓어짐 */
-  border-right: 2px solid lightseagreen;
+  border-color: 2px solid lightseagreen;
   padding: 20px;
   box-sizing: border-box;
   background-color: #e8f8f5;
@@ -37,7 +37,7 @@ html, body {
 
 .right {
   border-right: 0;
-  border-left: 2px solid lightseagreen;
+  border-color: 2px solid lightseagreen;
 }
 
 /* 3번: 가운데는 고정 폭 느낌 + 세로 스크롤 */
