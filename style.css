@@ -24,14 +24,14 @@ html, body {
 /* 2번, 4번: 좌우로 늘어날 수 있게 */
 .left, .right {
   flex: 1;                       /* 화면 넓어지면 같이 넓어짐 */
-  border-right: 3px solid lightseagreen;
+  border-right: 2px solid lightseagreen;
   padding: 20px;
   box-sizing: border-box;
 }
 
 .right {
   border-right: 0;
-  border-left: 3px solid lightseagreen;
+  border-left: 2px solid lightseagreen;
 }
 
 /* 3번: 가운데는 고정 폭 느낌 + 세로 스크롤 */
@@ -41,6 +41,6 @@ html, body {
   box-sizing: border-box;
 
   overflow-y: auto;              /* ⭐ 위아래 스크롤 */
-  border-left: 3px solid lightseagreen;
-  border-right: 3px solid lightseagreen;
+  border-left: 2px solid lightseagreen;
+  border-right: 2px solid lightseagreen;
 }
